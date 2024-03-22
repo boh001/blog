@@ -7,14 +7,11 @@ const config: Config = {
   tagline: "Dinosaurs are cool",
   favicon: "img/favicon.ico",
 
-  // Set the production url of your site here
-  url: "https://sanghyeonKim.dev",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  url: "https://sanghyeon.github.io",
   baseUrl: "/",
-
-  projectName: "blog", // Usually your repo name.
-
+  organizationName: "sanghyeon",
+  projectName: "blog",
+  trailingSlash: true,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
@@ -30,12 +27,13 @@ const config: Config = {
     [
       "classic",
       {
+        docs: false,
         blog: {
+          blogTitle: "Welcome My Blog",
+          blogDescription: "Dinosaurs are cool",
+          postsPerPage: "ALL",
+          routeBasePath: "/",
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -55,7 +53,7 @@ const config: Config = {
       },
       items: [
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/boh001",
           label: "GitHub",
           position: "right",
         },
@@ -64,15 +62,6 @@ const config: Config = {
     footer: {
       style: "dark",
       links: [
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "Tutorial",
-              to: "/docs/intro",
-            },
-          ],
-        },
         {
           title: "Community",
           items: [
@@ -87,19 +76,6 @@ const config: Config = {
             {
               label: "Twitter",
               href: "https://twitter.com/docusaurus",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
             },
           ],
         },
