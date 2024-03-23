@@ -8,7 +8,7 @@
     <subtitle>My Site Blog</subtitle>
     <icon>https://sanghyeon.dev/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome welcome]]></title>
+        <title type="html"><![CDATA[Welcome welcome check]]></title>
         <id>https://sanghyeon.dev/welcome</id>
         <link href="https://sanghyeon.dev/welcome"/>
         <updated>2021-08-26T00:00:00.000Z</updated>
