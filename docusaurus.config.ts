@@ -7,9 +7,8 @@ const config: Config = {
   tagline: "Dinosaurs are cool",
   favicon: "img/favicon.ico",
 
-  url: "https://sanghyeon.github.io",
+  url: "https://sanghyeon.dev",
   baseUrl: "/",
-  organizationName: "sanghyeon",
   projectName: "blog",
   trailingSlash: true,
   onBrokenLinks: "throw",
