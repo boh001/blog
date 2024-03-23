@@ -3,7 +3,7 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "My Site",
+  title: "Sanghyeon Kim's Blog",
   tagline: "Dinosaurs are cool",
   favicon: "img/favicon.ico",
 
@@ -49,9 +49,9 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "Welcome My Blog",
+      title: "Sanghyeon Kim's Blog",
       logo: {
-        alt: "My Site Logo",
+        alt: "Logo",
         src: "img/logo.svg",
       },
       items: [
@@ -60,31 +60,25 @@ const config: Config = {
           label: "GitHub",
           position: "right",
         },
+        {
+          href: "https://www.linkedin.com/in/sanghyeon-kim-3704bb224/",
+          label: "LinkedIn",
+          position: "right",
+        },
       ],
     },
     footer: {
       style: "dark",
-      links: [
-        {
-          title: "Community",
-          items: [
-            {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Sanghyeon Kim. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Sanghyeon Kim.`,
     },
+    /* announcementBar: {
+      id: "support_us",
+      content:
+        'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+      backgroundColor: "#fafbfc",
+      textColor: "#091E42",
+      isCloseable: false,
+    }, */
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
