@@ -1,6 +1,6 @@
 ---
 slug: welcome
-title: Welcome
+title: Welcome welcome
 authors: sanghyeon
 tags: [facebook, hello, docusaurus]
 ---
