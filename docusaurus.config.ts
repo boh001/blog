@@ -4,7 +4,6 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Sanghyeon Kim's Blog",
-  tagline: "Dinosaurs are cool",
   favicon: "img/favicon.ico",
 
   url: "https://sanghyeon.dev",
@@ -28,14 +27,16 @@ const config: Config = {
       {
         docs: false,
         blog: {
-          blogTitle: "Welcome My Blog",
-          blogDescription: "Dinosaurs are cool",
           postsPerPage: "ALL",
           routeBasePath: "/",
           showReadingTime: true,
         },
         theme: {
           customCss: "./src/css/custom.css",
+        },
+        gtag: {
+          trackingID: 'G-DRBWF62HVQ',
+          anonymizeIP: true,
         },
       } satisfies Preset.Options,
     ],
