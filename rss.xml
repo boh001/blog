@@ -26,12 +26,12 @@ But when i started to use react-native, i got error "Prettier resolveConfig.sync
 <li>prettier: 3.0.3</li>
 </ul></div></div>
 <h2 class="anchor anchorWithStickyNavbar_blSW" id="what-is-a-problem">What is a problem?<a href="https://sanghyeon.dev/how-to-fix-error-prettier-resolveConfig-sync#what-is-a-problem" class="hash-link" aria-label="Direct link to What is a problem?" title="Direct link to What is a problem?">​</a></h2>
-<p>When you init your react-native project using <code>npx react-native init project</code>, you can see react-native use <code>eslint-plugin-prettier: ^4.2.1</code>.
+<p>When you init your react-native project using <code>npx react-native init project</code>, react-native install <code>@react-native/eslint-config</code> and <code>@react-native/eslint-config</code> use <code>eslint-plugin-prettier: ^4.2.1</code>.
 But it's not compatible with <code>prettier: 3.0.3</code> that require <code>eslint-plugin-prettier</code> version 5 or later.</p>
 <h2 class="anchor anchorWithStickyNavbar_blSW" id="how-can-i-fix-it">How can i fix it?<a href="https://sanghyeon.dev/how-to-fix-error-prettier-resolveConfig-sync#how-can-i-fix-it" class="hash-link" aria-label="Direct link to How can i fix it?" title="Direct link to How can i fix it?">​</a></h2>
 <p>There are two solutions we can choose.</p>
 <ol>
-<li>Downgrade prettier to 1.x</li>
+<li>Downgrade prettier to 2.x</li>
 <li>force eslint-plugin-prettier to use 5.x using <code>overrides</code> field in package.json</li>
 </ol>
 <p>First one is easy to do, but i don't want to downgrade prettier even though there is compatible version.
