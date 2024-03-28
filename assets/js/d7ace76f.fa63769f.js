@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[536],{402:a=>{a.exports=JSON.parse('{"label":"korean","permalink":"/tags/korean","allTagsPath":"/tags","count":1,"unlisted":false}')}}]);

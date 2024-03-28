@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[97],{416:e=>{e.exports=JSON.parse('{"label":"software engineer","permalink":"/tags/software-engineer","allTagsPath":"/tags","count":1,"unlisted":false}')}}]);

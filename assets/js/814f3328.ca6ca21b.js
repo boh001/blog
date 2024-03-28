@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"How to fix error \\"Prettier resolveConfig.sync is not a function\\"","permalink":"/how-to-fix-error-prettier-resolveConfig-sync","unlisted":false},{"title":"First Blog Post","permalink":"/first-blog-post","unlisted":false}]}')}}]);
