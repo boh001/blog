@@ -59,8 +59,7 @@ This is useful to enforce all your packages to use a single version of a depende
             <description><![CDATA[This is the first blog post on this site.]]></description>
             <content:encoded><![CDATA[<p>Hello, everyone! This is the first blog post on this site.</p>
 <p>I'm a software engineer, so i'll post about programming most of the time.
-I hope this blog will be helpful to you.</p>
-<p>Oh, and by the way, I'm Korean, so my English is not very good, so please forgive me.</p>]]></content:encoded>
+I hope this blog will be helpful to you.</p>]]></content:encoded>
             <category>blog</category>
             <category>programming</category>
             <category>korean</category>
